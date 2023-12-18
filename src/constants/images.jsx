@@ -23,6 +23,7 @@ import gericht from '../assets/gericht.png';
 import restroLogo from "../assets/restroLogo.png";
 import dineLogo from "../assets/dineLogo.png"
 
+// eslint-disable-next-line import/no-anonymous-default-export
 export default {
   bg,
   chef,
