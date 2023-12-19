@@ -2,7 +2,7 @@ import React from "react";
 import { FiFacebook, FiTwitter, FiInstagram } from "react-icons/fi";
 
 import { FooterOverlay, Newsletter } from "../../components";
-import { images } from "../../constants";
+import { data, images } from "../../constants";
 import "./Footer.css";
 
 const Footer = () => (
@@ -13,13 +13,13 @@ const Footer = () => (
     <div className="app__footer-links">
       <div className="app__footer-links_contact">
         <h1 className="app__footer-headtext">Contact Us</h1>
-        <p className="p__opensans">9 W 53rd St, New York, NY 10019, USA</p>
-        <p className="p__opensans">+1 212-344-1230</p>
-        <p className="p__opensans">+1 212-555-1230</p>
+        <p className="p__opensans">456 Foodie Lane, Culinary City, Spice State 67890,<br /> India</p>
+        <p className="p__opensans">+91 98765 43210</p>
+        <p className="p__opensans">+91 98765 01233</p>
       </div>
 
       <div className="app__footer-links_logo">
-        <img src={images.gericht} alt="footer_logo" />
+        <img src={images.restroLogo} alt="footer_logo" />
         <p className="p__opensans">
           &quot;The best way to find yourself is to lose yourself in the service
           of others.&quot;
@@ -47,7 +47,7 @@ const Footer = () => (
     </div>
 
     <div className="footer__copyright">
-      <p className="p__opensans">2021 Gericht. All Rights reserved.</p>
+      <p className="p__opensans">{new Date().getFullYear()} Restro. All Rights reserved.</p>
     </div>
   </div>
 );

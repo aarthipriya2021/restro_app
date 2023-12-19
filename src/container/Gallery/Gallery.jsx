@@ -31,8 +31,7 @@ const Gallery = () => {
           className="p__opensans"
           style={{ color: "#AAAAAA", marginTop: "2rem" }}
         >
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat
-          mattis ipsum turpis elit elit scelerisque egestas mu.
+          Explore the artistry in every dish with our vibrant photo gallery. Immerse yourself in a visual feast showcasing the essence of dining at Restro.
         </p>
         <button type="button" className="custom__button">
           View More
