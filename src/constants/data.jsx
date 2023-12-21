@@ -3,27 +3,27 @@ import images from './images';
 const ClassicComfort = [
   {
     title: 'Homestyle Chicken Pot Pie',
-    price: '$56',
+    price: '₹780',
     tags: 'US | Bottle',
   },
   {
     title: 'Spaghetti Bolognese',
-    price: '$59',
+    price: '₹1590',
     tags: 'IT | Bottle',
   },
   {
     title: 'Vegetarian Lasagna',
-    price: '$44',
+    price: '₹1780',
     tags: 'IT | 750 ml',
   },
   {
     title: 'Decadent Chocolate Brownie Sundae',
-    price: '$31',
+    price: '₹820',
     tags: 'CA | 750 ml',
   },
   {
     title: 'Margherita Pizza',
-    price: '$26',
+    price: '₹950',
     tags: 'IT | 750 ml',
   },
 ];
@@ -31,27 +31,27 @@ const ClassicComfort = [
 const GlobalFusion = [
   {
     title: 'Beef Bulgogi Tacos',
-    price: '$20',
+    price: '₹280',
     tags: 'KR | Villa Marchesi prosecco | soda | 30 ml',
   },
   {
     title: "Mushroom Risotto",
-    price: '$16',
+    price: '₹1230',
     tags: 'IT | Ginger beer | Slice of lime',
   },
   {
     title: 'Vegetarian Sushi Rolls',
-    price: '$10',
+    price: '₹1160',
     tags: 'JP | Citrus juice | Sugar',
   },
   {
     title: 'Tiramisu Jar',
-    price: '$31',
+    price: '₹2140',
     tags: 'IT | Brown sugar | Angostura Bitters',
   },
   {
     title: 'Caprese Quinoa Salad',
-    price: '$26',
+    price: '₹1410',
     tags: 'IT | Sweet Vermouth | Campari | Orange garnish',
   },
 ];
